@@ -12,7 +12,13 @@ header {
     height: 40px;
     padding: 10px;
 }
-
+ body {
+            background-image: url('/images/bg1.jpg');
+            width: 100vw;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+   }
 .left {
     display: inline-block;
     /* border: 2px solid red; */
