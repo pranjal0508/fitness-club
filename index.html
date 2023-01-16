@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coders Fitness Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-image: url('/images/bg1.jpg');
+            width: 100vw;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/5c22da0e68.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="/images/icon.jpg" title="logo" alt="">
+            <div class="name" title="Coder's Club">Coder's Club</div>
+        </div>
+        <div class="middle">
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Fitness Tips</a></li>
+                <li> <a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button><a href="#">Log in</a></button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="join">Join the best fitness center of the city</div>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter your age" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Enter your E-mail" required>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your number" required>
+            </div>
+            <div class="form-group">
+                Date of Joining: <input type="date" placeholder="Enter your DOB" required>
+            </div>
+            <div class="form-group" class="rdo">
+                Do you want a trainer ?
+                <input type="radio" id="trainer" name="Trainer" value="Yes" class="rd">Yes
+                <input type="radio" id="trainer" name="Trainer" value="No" class="rd">No
+            </div>
+
+            <button type="submit" class="submit">Submit Details</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    <div class="quote"> Your health is an investment,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NOT an expense.</div>
+</body>
+
+</html>
